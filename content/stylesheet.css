@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    background: #f5f5f5;
+}
+
+#header {
+    padding: 50px 0px 10px 0px;
+    color: #666666;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+}
+
+#input {
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    resize: none;
+}
+
+#textarea-div {
+    width: max-content;
+    margin: auto;
+    width: 900;
+    max-width: 80%;
+    padding: 0px 0px 20px 0px
+}
+
+#errormessage {
+    color: #eb4034;
+    padding: 0px 0px 0px 10px;
+    margin: 0;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.buttons-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#charcount {
+    float: right;
+    margin: 0;
+}
+
+#send {
+    display: block;
+    margin: 0;
+}
+
+#thoughts {
+    width: 500px;
+    max-width: 90%;
+    margin: auto;
+}
+
+
+.thought-reply {
+    flex-grow: 1;
+}
+
+.thought-container {
+    width: 100%;
+    margin: 10px 0px
+}
+
+.thought {
+    width: 100%;
+    height: max-content;
+    background: #b8b8b8;
+    padding: 5px 5px 5px 5px;
+}
+
+.thought > p {
+    color: #242424;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.thought > h4 {
+    color: #121212;
+    padding: 0;
+    margin: 0;
+}
